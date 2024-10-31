@@ -1,13 +1,10 @@
+import React from 'react'
 
-import './App.css'
-
-function App() {
-
-
+const App = () => {
   return (
-    <>
-    <p className='text-3xl font-bold underline'>test sentence</p>
-    </>
+    <div>
+       <p className='text-3xl font-bold underline'>test sentence</p>
+    </div>
   )
 }
 
