@@ -1,8 +1,12 @@
 import React from "react";
+import styles from "./styles";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <p className="text-3xl font-bold underline text-white">test sentence</p>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}></div>
+      Navbar
+    </div>
   </div>
 );
 export default App;
