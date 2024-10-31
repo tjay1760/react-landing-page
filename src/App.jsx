@@ -13,7 +13,7 @@ const App = () => (
         Hero
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={`${styles.boxWidth} text-dimWhite`}>
       Stats
       Business
 Billing
